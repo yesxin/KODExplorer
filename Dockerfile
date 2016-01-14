@@ -1,5 +1,4 @@
 FROM php:5.6-apache
-
-COPY . /var/www/html
-
+MAINTAINER taoxin<taoxincn@qq.com>
 VOLUME /var/www/html
+ADD . /var/www/html
